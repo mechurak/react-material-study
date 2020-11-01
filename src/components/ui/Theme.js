@@ -1,8 +1,7 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createMuiTheme } from "@material-ui/core/styles";
 
 const arcBlue = "#0B72B9";
 const arcOrange = "#FFBA60";
-
 
 export default createMuiTheme({
   palette: {
@@ -11,15 +10,18 @@ export default createMuiTheme({
       arcOrange: `${arcOrange}`,
     },
     primary: {
-      main: `${arcBlue}`
+      main: `${arcBlue}`,
     },
     secondary: {
-      main: `${arcOrange}`
-    }
+      main: `${arcOrange}`,
+    },
   },
   typography: {
-    h3: {
-      fontWeight: 300
-    }
-  }
-})
+    tab: {
+      fontFamily: "Raleway",
+      textTransform: "none",
+      fontWeight: 700,
+      fontSzie: "1rem",
+    },
+  },
+});
